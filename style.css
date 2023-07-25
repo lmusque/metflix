@@ -1,0 +1,88 @@
+/* video width 20rem */
+/*  */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* styling the input page */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+    background-color: black;
+}
+
+h2,
+p {
+    color: white;
+    /* padding-bottom: 5px; */
+}
+h2 {
+    font-weight: 700;
+    text-shadow: 0 0 5px black;
+}
+h1 {
+    color: red;
+}
+
+#main_title {
+    padding-top: 50px;
+    font-size: 5vw;
+    color: red;
+    text-shadow: 0 0 10px white;
+}
+#movieDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    height: 30rem;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    gap: 20px;
+}
+/* scroll marquee section */
+/* section {
+    overflow: hidden;
+    cursor: ew-resize;
+    white-space: nowrap;
+    padding: 10vh 0;
+}
+.scroll {
+    font-size: 3vw;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0 15%;
+    will-change: transform;
+} */
+.card {
+    width: 20rem;
+    position: relative;
+}
+
+.card video {
+    width: 20rem;
+}
+.card:hover {
+    box-shadow: 0 0 30px white;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.info {
+    background-color: rgba(0, 0, 0, 0.347);
+    position: absolute;
+    margin-top: -2.7rem;
+    width: 100%;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+}
